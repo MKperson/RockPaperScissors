@@ -12,7 +12,7 @@ namespace Rps.Web.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "This is a rock paper scissors game.";
         }
     }
 }
