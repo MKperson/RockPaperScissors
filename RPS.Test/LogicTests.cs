@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
+using Rps.Library;
 
 namespace RPS.Test
 {
@@ -22,6 +23,12 @@ namespace RPS.Test
         int Add(int x, int y)
         {
             return x + y;
+        }
+
+        [Fact]
+        public void Test1()
+        {
+            
         }
     }
 }
